@@ -11,7 +11,7 @@ import android.content.res.AssetManager;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
+import com.example.dabuff.objectdetectionadvanced.appdemo.R;
 
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.CameraBridgeViewBase;

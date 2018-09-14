@@ -11,13 +11,12 @@ import android.view.MenuItem;
 
 import com.example.dabuff.objectdetectionadvanced.navigation.NavigationDrawerFragment;
 import com.example.dabuff.objectdetectionadvanced.objectdetect.ObjectDetect;
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
+import com.example.dabuff.objectdetectionadvanced.voicedetect.voicedemo.VoiceDetect;
 import com.example.dabuff.objectdetectionadvanced.waitingfor.Waiting;
 
 public class MainActivity extends AppCompatActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
     public static final String LOG_TAG = "ObjectDetect";
-
     private NavigationDrawerFragment navigationDrawerFragment;
 
     /**
@@ -43,18 +42,21 @@ public class MainActivity extends AppCompatActivity implements NavigationDrawerF
 
         //Set up the drawer
         navigationDrawerFragment.setUp(R.id.navigation_drawer,(DrawerLayout)findViewById(R.id.drawer_layout));
+        //drawer.closeDrawers();
     }
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         //update the main content by replacing fragments
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        //drawer.closeDrawers();
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+
 
         switch (position){
             case 0: fragmentTransaction.replace(R.id.container, new Index()); break;
             case 1: fragmentTransaction.replace(R.id.container, new ObjectDetect());break;
-            case 2: fragmentTransaction.replace(R.id.container, new Waiting());break;
+            case 2: fragmentTransaction.replace(R.id.container, new VoiceDetect());break;
+            case 3: fragmentTransaction.replace(R.id.container, new Waiting());break;
         }
 
         fragmentTransaction.commit();

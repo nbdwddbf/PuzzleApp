@@ -2,10 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/layout_backgroud"
     android:orientation="vertical" >
 
-    <include layout="@layout/title" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="益智语音训练"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/edit_text"
@@ -15,16 +20,37 @@
         android:layout_marginRight="@dimen/margin_"
         android:textSize="@dimen/txt_size" />
 
-    <ListView
-        android:id="@+id/listview_main"
+    <Button
+        android:id="@+id/buttonIse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:cacheColorHint="@color/white"
-        android:divider="@drawable/line_background"
-        android:dividerHeight="@dimen/line_height"
-        android:paddingBottom="5dp" />
+        android:text="立刻体验语音评测"
+        android:textSize="@dimen/btn_size"
+        />
+
+    <Button
+        android:id="@+id/buttonIat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="立刻体验语音听写"
+        android:textSize="@dimen/btn_size"
+        />
+
+    <Button
+        android:id="@+id/buttonIknow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="立刻体验语义理解"
+        android:textSize="@dimen/btn_size"
+        />
+
+    <Button
+        android:id="@+id/buttonWake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="立刻体验语音唤醒"
+        android:textSize="@dimen/btn_size"
+        />
+
 
 </LinearLayout>

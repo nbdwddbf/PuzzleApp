@@ -14,7 +14,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
+import com.example.dabuff.objectdetectionadvanced.appdemo.R;
 import com.example.dabuff.objectdetectionadvanced.voicedetect.iseresult.Result;
 import com.example.dabuff.objectdetectionadvanced.voicedetect.iseresult.xml.XmlResultParser;
 import com.example.dabuff.objectdetectionadvanced.voicedetect.speech.setting.IseSettings;

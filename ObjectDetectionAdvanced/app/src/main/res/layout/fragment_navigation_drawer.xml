@@ -8,4 +8,4 @@
     android:choiceMode="singleChoice"
     android:divider="@android:color/transparent"
     android:dividerHeight="0dp"
-    tools:context=".voicedemo.NavigationDrawerFragment"/>
+    tools:context="com.example.dabuff.objectdetectionadvanced.navigation.NavigationDrawerFragment"/>

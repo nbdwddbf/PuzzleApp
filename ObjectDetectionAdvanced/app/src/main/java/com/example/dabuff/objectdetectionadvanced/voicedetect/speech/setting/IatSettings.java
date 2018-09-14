@@ -8,7 +8,7 @@ import android.preference.PreferenceActivity;
 import android.view.Window;
 
 import com.example.dabuff.objectdetectionadvanced.voicedetect.speech.util.SettingTextWatcher;
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
+import com.example.dabuff.objectdetectionadvanced.appdemo.R;
 
 /**
  * 听写设置界面

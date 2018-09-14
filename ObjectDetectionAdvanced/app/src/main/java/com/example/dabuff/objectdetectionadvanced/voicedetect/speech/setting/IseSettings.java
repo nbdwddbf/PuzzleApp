@@ -11,7 +11,7 @@ import android.text.TextUtils;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
+import com.example.dabuff.objectdetectionadvanced.appdemo.R;
 import com.iflytek.cloud.SpeechConstant;
 
 /**

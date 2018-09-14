@@ -14,7 +14,7 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
+import com.example.dabuff.objectdetectionadvanced.appdemo.R;
 import com.example.dabuff.objectdetectionadvanced.voicedetect.speech.setting.IatSettings;
 import com.example.dabuff.objectdetectionadvanced.voicedetect.speech.util.FucUtil;
 import com.example.dabuff.objectdetectionadvanced.voicedetect.speech.util.JsonParser;

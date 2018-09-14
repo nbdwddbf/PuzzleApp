@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
     android:orientation="vertical"
-    tools:context=".voicedemo.MainActivity">
+    tools:context=".MainActivity">
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"

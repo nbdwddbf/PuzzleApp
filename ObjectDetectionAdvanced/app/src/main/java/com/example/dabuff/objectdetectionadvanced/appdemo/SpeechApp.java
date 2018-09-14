@@ -3,7 +3,6 @@ package com.example.dabuff.objectdetectionadvanced.appdemo;
 
 import android.app.Application;
 
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
 import com.iflytek.cloud.SpeechUtility;
 
 public class SpeechApp extends Application {

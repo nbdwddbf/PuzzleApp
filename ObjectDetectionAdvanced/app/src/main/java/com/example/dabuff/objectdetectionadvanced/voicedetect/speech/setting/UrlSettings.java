@@ -8,7 +8,7 @@ import android.preference.PreferenceActivity;
 import android.support.annotation.Nullable;
 import android.view.Window;
 
-import com.example.dabuff.objectdetectionadvanced.voicedemo.R;
+import com.example.dabuff.objectdetectionadvanced.appdemo.R;
 
 /**
  * @author hjyu

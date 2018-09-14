@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="讯飞评测示例"
+            android:text="语音评测"
             android:textSize="30sp" />
 
         <ImageButton
